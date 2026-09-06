@@ -333,24 +333,6 @@ body {
     gap: 1.25rem;
 }
 
-.scene-number {
-    font-family: var(--font-heading);
-    font-size: 1rem;
-    color: var(--accent-gold);
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.scene-number::after {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 1px;
-    background: var(--accent-gold);
-    opacity: 0.4;
-}
-
 .scene-title {
     font-family: var(--font-heading);
     font-size: 1.9rem;
